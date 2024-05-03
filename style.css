@@ -1,0 +1,39 @@
+.heading{
+    color:royalblue;
+    font-family: neue-kabel, sans-serif;
+}
+
+/* .links{
+    font-family: Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif;
+} */
+
+.glegoo-regular {
+    font-family: "Glegoo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .glegoo-bold {
+    font-family: "Glegoo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* // <>: Use a unique and descriptive class name */
+
+.bottom-page-stuff {
+  font-family: "M PLUS Code Latin", monospace;
+  font-optical-sizing: auto;
+  font-weight: 340;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 101.3;
+}
+
+.background-color {
+    background-color:#FFFCEB ;
+}
+
+.BLACK {
+    background-color: black;
+}
