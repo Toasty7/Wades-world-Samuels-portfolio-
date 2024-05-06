@@ -1,25 +1,58 @@
+
+
 .heading{
-    color:royalblue;
-    font-family: neue-kabel, sans-serif;
+  color:royalblue;
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 250px;
+}
+
+.the-other-goofy-ahh-heading-font-for-home-page-slash-skull-emoji {
+  color:royalblue;
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* .links{
     font-family: Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif;
 } */
-
+/* 
 .glegoo-regular {
     font-family: "Glegoo", serif;
     font-weight: 400;
     font-style: normal;
-  }
+  } */
+
   
   .glegoo-bold {
     font-family: "Glegoo", serif;
     font-weight: 700;
     font-style: normal;
+    text-decoration: none;
   }
 
-  /* // <>: Use a unique and descriptive class name */
+  .rowed {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  
 
 .bottom-page-stuff {
   font-family: "M PLUS Code Latin", monospace;
@@ -31,7 +64,7 @@
 }
 
 .background-color {
-    background-color:#FFFCEB ;
+    background-color:#FFFCEB;
 }
 
 .BLACK {
