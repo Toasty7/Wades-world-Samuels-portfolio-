@@ -7,6 +7,13 @@
   font-style: normal;
   font-size: 200px;
   padding-top: 0%;
+  padding-left: 30px
+}
+
+.bruh {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .samuel-null {
@@ -89,8 +96,6 @@
     background-color: black;
 }
 
-
-/* CSS */
 .button-super-dooper-cool-button {
   background-color: #fbeee0;
   border: 2px solid #422800;
@@ -124,4 +129,13 @@
     min-width: 120px;
     padding: 0 25px;
   }
+}
+
+
+.blue{
+  background-color: royalblue;
+}
+
+.text-decor {
+  text-decoration: cornflowerblue;
 }
