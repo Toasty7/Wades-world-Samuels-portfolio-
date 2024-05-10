@@ -162,12 +162,12 @@
 .rerow {
   display: flex;
   justify-content:left;
-  align-items: end;
+  align-items:normal;
 }
 
 .container {
   display: flex;
-  flex-direction: column; /* This sets the direction of the flex items to be vertical */
+  flex-direction: column; 
 }
 
 .rowed {
@@ -178,6 +178,10 @@
   padding-bottom: 40px;
   padding-left: 20%;
   padding-right: 20%;
+}
+
+.pictre {
+  
 }
 
 
