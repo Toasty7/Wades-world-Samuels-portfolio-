@@ -14,13 +14,20 @@
   font-style: normal;
 }
 
+.bruh-alt{
+  color: #FBEDE0;
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .samuel-null {
   padding-top: 15px;
   padding-left: 16px;
 }
 
 .the-other-goofy-ahh-heading-font-for-home-page-slash-skull-emoji {
-  color:royalblue;
+  color: #FBEDE0;
   font-family: "Belanosima", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -28,6 +35,8 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+
+
 
 .circumcision {
   image-resolution: 100%;
@@ -148,9 +157,21 @@
   color: #FBEDE0;
 }
 
-.padds {
- padding-top: 10px;
+.pads {
+ padding-left:30px;
 } 
+
+.padingtitle{
+  padding-left: 12px;
+}
+
+.get-tf-over {
+  padding-left: 150px;
+}
+
+.padding-bottom{
+  padding-bottom: 60px;
+}
 
  .flux {
   display: flex; 
