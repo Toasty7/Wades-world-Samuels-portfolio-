@@ -248,4 +248,21 @@
   right: 0;
 }
 
+.portimg {
+  width: 500px;
+  border: #FFFCEB;
+  border-radius: 40px;
+  border-style: solid;
+  margin-right: 3%;
+}
 
+.pagewrapper {
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.row {
+  margin: 1%;
+  display: flex;
+}
