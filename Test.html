@@ -1,92 +1,140 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="java.js">
-    <title>Image Carousel</title>
-    <style>
-        .carousel-container {
-            width: 80%;
-            margin: 0 auto;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .carousel-slide {
-            display: flex;
-            transition: transform 0.5s ease;
-        }
-
-        .carousel-item {
-            width: 100%;
-            flex: 0 0 auto;
-        }
-
-        .carousel-img {
-            width: 100%;
-            height: auto;
-        }
-
-        .prev,
-        .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-        }
-
-        .prev {
-            left: 0;
-        }
-
-        .next {
-            right: 0;
-        }
-    </style>
+    <title>Document</title>
 </head>
+<body>
+    <div class="container">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+        <div class="square black">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
 
+    <style>html{
+        background: black;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .container{
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -150px 0 0 -150px;
+      }
+      
+      .square{
+        height: 94%;
+        width: 94%;
+        background: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -47% 0 0 -47%;
+      }
+      
+      .black{ 
+        background: black;  
+        animation: rotate 10s infinite linear; 
+      }
+      
+      @keyframes rotate{
+        0%{ transform: rotate(0deg); }
+          100%{ transform: rotate(360deg); }	
+      }</style>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+</head>
 <body>
 
-    <h1 class="the-other-goofy-ahh-heading-font-for-home-page-slash-skull-emoji"> W </h1>
+<h1>CSS Animation</h1>
 
-    <div class="carousel-container">
+<p>The animation-iteration-count property can be set to infinite to let the animation run for ever:</p>
 
-        <div class="prev" onclick="prevSlide()">&#10094;</div>
-        <div class="next" onclick="nextSlide()">&#10095;</div>
-    </div>
-
-    <script src="java.js">
-        let slideIndex = 0;
-        showSlide(slideIndex);
-
-        function prevSlide() {
-            showSlide(slideIndex -= 1);
-        }
-
-        function nextSlide() {
-            showSlide(slideIndex += 1);
-        }
-
-        function showSlide(n) {
-            const slides = document.getElementsByClassName("carousel-item");
-            if (n >= slides.length) {
-                slideIndex = 0;
-            }
-            if (n < 0) {
-                slideIndex = slides.length - 1;
-            }
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slides[slideIndex].style.display = "block";
-        }
-    </script>
+<div></div>
 
 </body>
-
-</html>
+</html> -->
